@@ -15,7 +15,7 @@ const urlStruct = {
     
     '/' : htmlHandler.getIndexResponse,
     '/random-number' : jsonHandler.getRandomNumberResponse,
-    notFound : htmlHandler.get404Reponse
+    notFound : htmlHandler.getErrorResponse
     
     
 };
